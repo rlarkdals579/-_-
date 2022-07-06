@@ -1,4 +1,4 @@
-package hw0705;
+package ll0706;
 
 public class q5 {
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
-package hw0705;
+package ll0706;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 class q7 {
     static String s = "30 + 40 + 20 + 40 + 20 + 50 + 11 + -6  + -100";

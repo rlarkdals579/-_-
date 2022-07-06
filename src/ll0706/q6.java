@@ -1,4 +1,4 @@
-package hw0705;
+package ll0706;
 
 public class q6 {
     //D8 요구 : 자바에서 다중상속은 불가능 합니다. 상속에는 한계가 있습니다.
