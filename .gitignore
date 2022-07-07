@@ -5,6 +5,7 @@
 # Compiled class file
 *.class
 
+#git init file
 *.idea
 
 # Log file
