@@ -5,7 +5,7 @@ public class ll02 {
 // 문제 : 배열의 단점을 보완한 ArrayList 라는 클래스를 만들어주세요. 아래와 같이 출력되도록 해주세요.
 
     public static void main(String[] args) {
-        ArrayList ar = new ArrayList();
+        ArrayList55 ar = new ArrayList55();
         ar.add(100);
         ar.add(200);
         ar.add(300);
@@ -23,11 +23,11 @@ public class ll02 {
         // 출력 : 300
     }
 }
-class ArrayList {
+class ArrayList55 {
     int[] data;
     int lastidx;
 
-    ArrayList(){
+    ArrayList55(){
         data = new int[3];
         lastidx = -1;
     }
