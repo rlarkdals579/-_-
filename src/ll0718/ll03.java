@@ -2,7 +2,7 @@ package ll0718;
 
 class ll03 {
     public static void main(String[] args) {
-        HashMap aMap = new HashMap();
+        HashMap2 aMap = new HashMap2();
 
         aMap.put(1, "안녕");
         aMap.put("A", false);
@@ -13,12 +13,12 @@ class ll03 {
     }
 }
 
-class HashMap {
+class HashMap2 {
     private Object[] keys;
     private Object[] datas;
     int size = 0;
 
-    HashMap() {
+    HashMap2() {
         keys = new Object[100];
         datas = new Object[100];
     }
