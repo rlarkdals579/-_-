@@ -5,9 +5,14 @@ class ll01 {
         View.OnClickListener aOnClickListener;
 
         // 수정가능지역 시작
-        aOnClickListener = new exam();
-        // 수정가능지역 끝
+        aOnClickListener = new View.OnClickListener() {
+            @Override
+            public void onClick() {
+                System.out.println("클릭되었다는 사실을 전달받았습니다.");
 
+            }
+        };
+        // 수정가능지역 끝
         aOnClickListener.onClick();
         // 출력 => 클릭되었다는 사실을 전달받았습니다.
     }
@@ -16,11 +21,5 @@ class ll01 {
 class View {
     static interface OnClickListener {
         public void onClick();
-    }
-}
-
-class exam implements View.OnClickListener{
-    public void onClick(){
-        System.out.println("클릭되었다는 사실을 전달받았습닏.");
     }
 }
