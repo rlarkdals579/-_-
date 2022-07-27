@@ -1,41 +1,41 @@
+package ll0727;
 
-class Main {
+class ll02 {
     public static void main(String[] args) {
-        Activity activity = new MainActivity();
+        Activity3 activity = new MainActivity3();
         activity.onCreate();
     }
 }
 
-abstract class Activity {
+abstract class Activity3 {
     abstract public void onCreate();
 }
 
-class MainActivity extends Activity {
+class MainActivity3 extends Activity3 {
     @Override
     public void onCreate() {
-        System.out.println("메인 액티비티가 실행되었습니다.");
+        System.out.println("메인 액티비티가 실행되었습니다. 3번");
 
         // 아래 코드가 실행되도록 해주세요.
-        View.OnClickListener a = new 사과();
-        View aButton = new Button(this);
+        View3.OnClickListener3 a = new 사과3();
+        View3 aButton = new Button3(this);
         aButton.setOnClickListener(a);
     }
 }
 
-abstract class View {
-    public void setOnClickListener(OnClickListener a) {
+abstract class View3 {
+    public void setOnClickListener(OnClickListener3 a) {
     }
 
-    public static interface OnClickListener {
+    public static interface OnClickListener3 {
     }
 }
 
-class 사과 implements View.OnClickListener {
+class 사과3 implements View3.OnClickListener3 {
 }
 
-class Button extends View {
-
-    public Button(MainActivity mainActivity) {
+class Button3 extends View3 {
+    public Button3(MainActivity3 mainActivity) {
     }
 }
 
